@@ -28,3 +28,11 @@ body {
   align-items: center;
   font-size: 15px;
 }
+
+.resume {
+  margin-bottom: 400px;
+}
+
+#submit {
+  margin-bottom: 60px;
+}
