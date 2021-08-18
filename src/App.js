@@ -7,6 +7,8 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Resume from './components/resume';
 import React from "react";
+import { Link} from "react-router-dom";
+
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -18,7 +20,9 @@ function App() {
         <div className="flex-column justify-flex-start min-100-vh" >
           <Header />
           <div className="container">
-            <Route exact path="/">
+            <Router basename="/"/>
+            <Link to="/about"/>
+            <Route exact path="/react_portfolio">
               <About />
             </Route>
             <Route exact path="/contact">
