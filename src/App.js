@@ -2,7 +2,7 @@
 import './App.css';
 import About from './components/aboutMe'
 import Contact from './components/contact';
-import Portfolio from './components/projects';
+import Portfolio from './components/portfolio';
 import Header from './components/header';
 import Footer from './components/footer';
 import Resume from './components/resume';
