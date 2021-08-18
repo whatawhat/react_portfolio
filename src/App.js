@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div style={{ background: `#CB9cF2`, height:"100hv" , position: 'absolute', width: "100%"}}>
+    <div style={{ background: `#D7CDCC`, height:"100hv" , position: 'absolute', width: "100%"}}>
     <Router >
         <div className="flex-column justify-flex-start min-100-vh" >
           <Header />
