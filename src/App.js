@@ -22,7 +22,7 @@ function App() {
           <div className="container">
             <Router basename="/"/>
             <Link to="/about"/>
-            <Route exact path="/react_portfolio">
+            <Route exact path="/">
               <About />
             </Route>
             <Route exact path="/contact">
