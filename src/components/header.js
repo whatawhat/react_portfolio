@@ -7,7 +7,7 @@ function Header() {
             <Nav className="nav">
                 <NavLink exact to="/">Home</NavLink>
                 <NavLink to="/projects">Projects</NavLink>
-                <NavLink to="/contact-me">Contact Me</NavLink>
+                <NavLink to="/contact">Contact Me</NavLink>
                 <NavLink to="/resume">Resume</NavLink>
             </Nav>
         );
