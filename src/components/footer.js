@@ -1,33 +1,19 @@
-import { Component } from "react";
+import React from "react";
+//import {useLocation, useHistory} from 'react-router-dom';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
-class Footer extends Component {
-    render() {
-        return (
-            <footer>
-                <h3>Contact Me</h3>
-                    <section className="contact-info">
-                        <div id="phone">
-                            412-345-3146
-                        </div>
-                        
-                        <div id="email">
-                            <i className="far fa-envelope"></i>
-                            <a href="mailto:stephedavis12@gmail.com">Email Me</a>
-                        </div>
-
-                        <div id="github">
-                            <i className="fab fa-github"></i>
-                            <a href="https://github.com/whatawhat" target="_blank" rel="noreferrer">GitHub profile</a>
-                        </div>
-
-                        <div id="linkedin">
-                            <i className="fab fa-linkedin"></i>
-                            <a href="www.linkedin.com/in/stephanie-davis-56780b3b" target="_blank" rel="noreferrer">LinkedIn profile</a>
-                        </div>
-                    </section>
-            </footer>
-        );
-    }
-}
+function Footer() {
+    return (
+      <footer className="w-100 mt-auto text-dark p-4">
+        <div>className="container text-center"</div>
+            <a href="mailto:stephedavis12@gmail.com" target="_blank"/>
+                <FaEnvelope size="2em" color="ffffff"/>
+          <a href="https://github.com/whatawhat" target="_blank"/>
+            <FaGithub size="2em" color="#ffffff"/>
+          <a href="www.linkedin.com/in/stephanie-davis-56780b3b" target="_blank"/>
+            <FaLinkedin size="2em" color="#ffffff"/>
+      </footer>
+    );
+  };
 
 export default Footer;
