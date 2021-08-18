@@ -4,7 +4,7 @@ import { NavLink} from "react-router-dom";
 
 function Header() {
         return (
-            <Nav className="nav nav-pills flex-column flex-lg-row px-4">
+            <Nav className="nav nav-pills flex-column flex-lg-row px-4" style={{fontSize: 20}}>
                 <NavLink className="nav px-4" exact to="/">Home</NavLink>
                 <NavLink className="nav px-4" to="/projects">Projects</NavLink>
                 <NavLink className="nav px-4" to="/contact">Contact Me</NavLink>
