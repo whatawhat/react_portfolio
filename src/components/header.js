@@ -4,11 +4,11 @@ import { NavLink} from "react-router-dom";
 
 function Header() {
         return (
-            <Nav className="nav">
-                <NavLink exact to="/">Home</NavLink>
-                <NavLink to="/projects">Projects</NavLink>
-                <NavLink to="/contact">Contact Me</NavLink>
-                <NavLink to="/resume">Resume</NavLink>
+            <Nav className="nav nav-pills flex-column flex-lg-row px-4">
+                <NavLink className="nav px-4" exact to="/">Home</NavLink>
+                <NavLink className="nav px-4" to="/projects">Projects</NavLink>
+                <NavLink className="nav px-4" to="/contact">Contact Me</NavLink>
+                <NavLink className="nav px-4" to="/resume">Resume</NavLink>
             </Nav>
         );
     }
