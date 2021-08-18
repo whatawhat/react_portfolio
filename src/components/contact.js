@@ -22,7 +22,7 @@ function Contact() {
                         <Form.Control placeholder="Your message" as="textarea" rows={3}/>
                     </Form.Group>
                
-                    <button type="submit">
+                    <button type="submit" id="submit">
                         Submit
                     </button>
                 </Form>
