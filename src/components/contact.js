@@ -6,7 +6,7 @@ import { Form } from 'react-bootstrap';
 function Contact() {
         return (
             <div>
-                <Form onSubmit={this.mySubmitHandler}></Form>
+                {/* <Form onSubmit={this.mySubmitHandler}></Form> */}
                 <h2>Contact Me</h2>
                 <Form>
                     <Form.Group controlId="formBasicPassword">
