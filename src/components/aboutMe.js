@@ -1,10 +1,12 @@
 import React from 'react';
 //import Header from './header';
-//import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image'
+import head from '../assets/images/sdheadshot.jpg'
 
 function About() {
         return (
         <div className="personalInfo" id="aboutMe">
+            <Image src={head} thumbnail class="head"/>
                 <h2>Stephanie E. Davis</h2>
                 <p>
                 I love puzzles. Some of my favorite puzzles include Sudoku, Killer Sudoku, and Samurai Sudoku. I enjoy jigsaw puzzles and even logic puzzles. My love for puzzles transfers to my career. I love challenges and enjoy problem solving and developing a solution or more if the problem calls for it.
