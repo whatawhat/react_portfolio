@@ -12,3 +12,8 @@ body {
     max-height: 20%;
     max-width: 20%;
 }
+
+.nav {
+  color: #6D2E46;
+  text-align: center;
+}
