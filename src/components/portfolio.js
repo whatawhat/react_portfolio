@@ -19,16 +19,15 @@ function Portfolio(){
                 <Card.Img src={CodeQuiz} alt="Note tracker screenshot" />
                 <Card.Footer>
                     <a href="https://github.com/whatawhat/codequiz" class="btn btn-sm btn-info" target="_blank" rel="noreferrer" role="button">GitHub Link</a>
-                    <a href="https://whatawhat.github.io/codequiz/" class="btn btn-sm btn-info" role="button">Repo Link</a>
+                    <a href="https://whatawhat.github.io/codequiz/" class="btn btn-sm btn-info" target="_blank" rel="noreferrer" role="button">Repo Link</a>
                 </Card.Footer>
             </Card>
             <Card className="bg-dark text-white text-center" style={{flex: 2, width:'100%'}}>
                 <Card.Header>Fitness Tracker</Card.Header>
                 <Card.Img src={FitnessTrack} alt="Weather dashboard screenshot" />
                 <Card.Footer>
-                    <a href="https://github.com/whatawhat/workout_tracker" class="btn btn-sm btn-info" target="_blank" rel="noreferrer">GitHub Link</a>
-                       
-                    <a href="https://aqueous-beyond-78787.herokuapp.com/" class="btn btn-sm btn-info" target="_blank" rel="noreferrer">Repo Link</a>
+                    <a href="https://github.com/whatawhat/workout_tracker" class="btn btn-sm btn-info" target="_blank" rel="noreferrer" role="button">GitHub Link</a>
+                    <a href="https://aqueous-beyond-78787.herokuapp.com/" class="btn btn-sm btn-info" target="_blank" rel="noreferrer" role="button">Repo Link</a>
                 </Card.Footer>
             </Card>
             </CardDeck>
@@ -40,16 +39,16 @@ function Portfolio(){
                 <Card.Img src={NoteTrack} alt="Note tracker screenshot" />
                 <Card.Footer>
                     <a href="https://github.com/whatawhat/workout_tracker" class="btn btn-sm btn-info" target="_blank" rel="noreferrer" role="button">GitHub Link</a>
-                    <a href="https://aqueous-beyond-78787.herokuapp.com/" class="btn btn-sm btn-info" role="button">Repo Link</a>
+                    <a href="https://aqueous-beyond-78787.herokuapp.com/" class="btn btn-sm btn-info" target="_blank" rel="noreferrer" role="button">Repo Link</a>
                 </Card.Footer>
             </Card>
             <Card className="bg-dark text-white text-center" style={{flex: 2, width:'100%'}}>
                 <Card.Header>Weather Dashboard</Card.Header>
                 <Card.Img src={Weather} alt="Weather dashboard screenshot" />
                 <Card.Footer>
-                    <a href="https://github.com/whatawhat/weather_dashboard" class="btn btn-sm btn-info" target="_blank" rel="noreferrer">GitHub Link</a>
+                    <a href="https://github.com/whatawhat/weather_dashboard" class="btn btn-sm btn-info" target="_blank" rel="noreferrer" role="button">GitHub Link</a>
                        
-                    <a href="https://whatawhat.github.io/weather_dashboard/" class="btn btn-sm btn-info" target="_blank" rel="noreferrer">Repo Link</a>
+                    <a href="https://whatawhat.github.io/weather_dashboard/" class="btn btn-sm btn-info" target="_blank" rel="noreferrer" role="button">Repo Link</a>
                 </Card.Footer>
             </Card>
             </CardDeck>
