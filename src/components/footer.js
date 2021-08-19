@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaTwitter } from 'react-icons/fa';
 //import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -29,6 +29,12 @@ function Footer() {
               <FaLinkedin size="2em"/>
             </a>
           </div>
+          <div id="Twitter" class="px-4">
+            <a href="https://twitter.com/handavi">
+              <FaTwitter size="2em"/>
+            </a>
+          </div>
+
           </div>
           </div>
       </footer>
