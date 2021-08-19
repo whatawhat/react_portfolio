@@ -1,6 +1,4 @@
-# react_portfolio
-
-# portfolioTwo
+# React Portfolio
 
 ### Table of Contents
 - [Description](#Description)
@@ -12,42 +10,46 @@
 - [Sources](#sources)
 
 ## Description
-This is my portfolio of applications I developed. There are image cards with links to the deployed application and the repo. 
+This is my portfolio using React. There are image cards of deployed applications. There's a contact form. The bottom buttons are linked to my profiles as well my number and email.  
 
 ## Link to Portfolio
 Here is the link to my portfolio. I hope you enjoy it!
-[Stephanie's Portfolio](https://whatawhat.github.io/portfolioTwo/)
+[Stephanie's React Portfolio](https://whatawhat.github.io/react_portfolio/)
 
 ## Technologies Used
 ```
 HTML
 CSS
 Bootstrap
+React
 ```
 
 ## Highlights
 There are several features to this portfolio that I'm very proud of. 
 
+- I enjoyed making my photo rounded. I love the way it looks even though I wanted a thumbnail.
+
 - In the contact me section, I was able to make the phone number a link. This will be very valuable when viewing from a cell phone or any device that allows the user to call immediately. This allows the viewer to tap the number and call.
 
 - In the contact me section, I was able to link my email address so when clicked on it, the viewer will go to their default email application to send an email. 
 
-- I enjoyed making the cards and aligning them to be mobile responsive with clear buttons that link.
+- It was great using the favicons for the bottom of the page.
 
-- The navigation bar will take the viewer to the appropriate section.
 
 ## Screenshots
 This is the main screen for the full size view.
-![Mainpage in full size view](./images/portfolioL1.png)
+![Mainpage in full size view](./public/assets/images/reactMain.png)
 
-This is a view of the project cards in the full size view. All of the cards are the same size with clickable buttons. 
-![Project cards for full size view](./images/portfolioL2.png)
+This is a view of the project cards in the full size view. 
+![Project cards for full size view](./public/assets/images/reactProject.png)
 
-This is the main screen for the mobile size view. 
-![Mobile size view of main page](./images/portfolioS1.png)
+This is the view of the resume page.  
+![Resume page](./public/assets/images/reactResume.png)
 
-This is the view of the project cards in the mobile view. As you can see, the cards are in a column instead of a row.
-![Mobile size view of project cards](./images/portfolioS2.png)
+This is the view of the contact form.
+![Contact page](./public/assets/images/reactSignup1.png)
+
+This is the mobile responsive version of the main page. ![Mobile sive view of main page](./public/assets/images/reactMainSmall.png)
 
 ## Contributor
 - Stephanie Davis
